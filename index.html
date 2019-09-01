@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bluedot Media</title>
+  <link rel="stylesheet" href="/Proyecto1/Proyecto/css/style.css" />
+  <link rel="stylesheet" href="/Proyecto1/Proyecto/css/responsive.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="img/logo.png" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#">
+        <img src="/Proyecto1/Proyecto/img/logo.svg" alt="Bluedot media logo" />
+      </a>
+    </div>
+
+    <input class="toggle" type="checkbox" id="toggle" />
+    <label for="toggle" class="menuIcon"><span class="navIcon"></span></label>
+    <div class="navLinks">
+      <ul class="navList">
+        <li><a href="#episodios">Episodios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#entrevistas">Entrevistas</a></li>
+        <li><a href="#topicos">Topicos</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="textoHeader">
+      <h1>
+        Hello <span class="tacha">world</span> pale blue dot
+        <span class="blueDot">.</span>
+      </h1>
+      <p>
+        El portal de podcasts que explora el mundo de la programacion y la
+        tecnologia. Nuevos episodios, todos los jueves cada 15 dias.
+      </p>
+
+      <!--Workaround con form. se que cargo un poco el html, pero al no poder usar JS, tuve 
+        que arreglarmelas de alguna forma. -->
+      <form action="">
+        <button type="submit" formaction="#episodios" class="btnPrimario" type="button">
+          <a href="#episodios">conocé más</a>
+        </button>
+      </form>
+    </div>
+  </header>
+  <section class="podcast" id="episodios">
+    <h1 class="tituloEpisodios">Episodios</h1>
+    <div class="containerPodcast">
+      <div class="clip">
+        <div class="iframes">
+          <div class="arriba">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%"
+              height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232"
+              frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          <div class="abajo">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%"
+              height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%"
+              height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="nosotros" id="nosotros">
+    <div class="containerNosotros">
+      <img src="/Proyecto1/Proyecto/img/phone.png" alt="" />
+      <div class="nosotrosInnerTxt">
+        <h1>De dónde venimos</h1>
+        <p>
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by
+          this point of pale light. Our planet is a lonely speck in the great
+          enveloping cosmic dark. In our obscurity, in all this vastness,
+          there is no hint that help will come from elsewhere to save us from
+          ourselves.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="invitados" id="entrevistas">
+    <h1>Invitadas/os estelares</h1>
+    <div class="containerImg">
+      <img src="/Proyecto1/Proyecto/img/Katie-Bouman.png" alt="Una foto de Katie Bouman" />
+      <img src="/Proyecto1/Proyecto/img/Margaret_Hamilton.png" alt="Una foto de Margaret Hamilton" />
+      <img src="/Proyecto1/Proyecto/img/grace-hopper.png" alt="Una foto de Grace Hopper" />
+      <img
+        src="/Proyecto1/Proyecto/img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+        alt="Operadores con una computadora Eniac. La primera computadora programmable" />
+      <img src="/Proyecto1/Proyecto/img/susan-kare.png" alt="Una foto de Susan Kare" />
+      <img src="/Proyecto1/Proyecto/img/An E.R.A.Univac 1103 computer in the 1950s.png"
+        alt="Fotografia de una computadora E.R.A Univac 1103" />
+    </div>
+  </section>
+  <section class="topicos" id="topicos">
+    <h1 class="topicosTitulo">Algunos de nuestros temas</h1>
+    <div class="topicosGrid">
+      <div class="remoto">
+        <img src="/Proyecto1/Proyecto/img/icon1.svg" alt="icono trabajo remoto" />
+        <p>Trabajo Remoto</p>
+      </div>
+      <div class="repensando">
+        <img src="/Proyecto1/Proyecto/img/icon2.svg" alt="icono repensando la programacion" />
+        <p>Repensando la programacíon</p>
+      </div>
+      <div class="bases">
+        <img src="/Proyecto1/Proyecto/img/icon3.svg" alt="icono bases del codigo" />
+        <p>Bases del codigo</p>
+      </div>
+      <div class="seguridad">
+        <img src="/Proyecto1/Proyecto/img/icon4.svg" alt="icono seguridad informatica" />
+        <p>Seguridad informatica</p>
+      </div>
+    </div>
+  </section>
+  <section class="novedades">
+    <div class="containerNovedades">
+      <h1>Querés las últimas novedades?</h1>
+      <form action="">
+        <button type="submit" formaction="#episodios" class="btnSecundario">
+          <a href="#">ESCUCHÁ LOS EPISODIOS</a>
+        </button>
+      </form>
+      <div class="clip2"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="footerContainer">
+      <p>
+        <!--<a href="https://github.com/jguaura" class="jG" target="_blank">José Guaura</a>
+        para--> © 2019 - Blue Dot Media
+      </p>
+      <ul class="media">
+        <li>
+          <a href="https://open.spotify.com/artist/5FsfZj0Mp6YwEWytuJUcWt?si=jM7Oj_0mT-ecYuNxaPAS2A" target="_blank"><i
+              class="fa fa-spotify"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dota2/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jensimmons" target="_blank"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/Acamica.org/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-telegram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
